@@ -1,0 +1,46 @@
+
+body {
+  background-color: #f5f7fb;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+  letter-spacing: 0.3px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.form-card {
+  max-width: 600px;
+}
+
+.table {
+  background-color: white;
+}
+
+footer {
+  color: #555;
+}
+
+@media (max-width: 576px) {
+  .navbar .container {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .navbar-brand {
+    font-size: 17px;
+  }
+
+  .navbar-nav {
+    font-size: 14px;
+  }
+}
+
